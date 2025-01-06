@@ -17,10 +17,10 @@ import os
 
 # api.weather.gov url below is using lat,lng coordinates to get the weather forecast
 # This function uses maps.googelapis.com to get the lat,lng coordinates of a location
-def get_coordinates(zip_code, api_key):
+def get_coordinates(location, api_key):
     base_url = "https://maps.googleapis.com/maps/api/geocode/json"
     params = {
-        "address": zip_code,
+        "address": location,
         "key": api_key
     }
 
