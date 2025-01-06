@@ -4,6 +4,8 @@ A simple Python script to get command line weather using api.weather.com
 
 # Usage
 ```
+export GEOCODE_API_KEY=your_geocode_api_key
+
 python myWeather.py
 
 Enter a location: New Hope, Pa
