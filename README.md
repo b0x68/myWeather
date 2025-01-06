@@ -1,5 +1,5 @@
 # myWeather
-A simple Python script to get command line weather using api.weather.com
+A simple Python script to get command line weather using api.weather.gov
 - The return city isn't always what is given, but relatively close. TODO.
 
 # Usage
