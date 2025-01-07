@@ -4,11 +4,9 @@ A simple Python script to get command line weather using api.weather.gov
 
 # Usage
 ```
+$ export GEOCODE_API_KEY=your_geocode_api_key
 $ python3 -m venv py3.13.1_weather_venv
 $ source py3.13.1_weather_venv/bin/activate
-
-$ export GEOCODE_API_KEY=your_geocode_api_key
-
 (py3.13.1_weather_venv)$ python myWeather.py
 
 Enter a location: new hope, pa
